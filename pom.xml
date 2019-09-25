@@ -7,13 +7,12 @@
     <groupId>io.github.elitedev</groupId>
     <artifactId>EliteNPCs</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <modules>
-        <module>api</module>
+        <module>elitenpcs-api</module>
+        <module>elitenpcs-spigot</module>
         <module>v1_8_R3</module>
     </modules>
-
-
 
 </project>
