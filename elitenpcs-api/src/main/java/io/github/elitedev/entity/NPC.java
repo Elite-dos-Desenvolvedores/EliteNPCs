@@ -4,10 +4,10 @@ import java.util.UUID;
 
 public interface NPC {
 
-  UUID getUniqueId();
+    UUID getUniqueId();
 
-  String getName();
+    String getName();
 
-  void setName(String name);
+    void setName(String name);
 
 }
