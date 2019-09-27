@@ -1,8 +1,8 @@
 package io.github.elitedev.entity;
 
-public interface SpigotNPCRegistry {
+public interface SpigotNPCRegistry extends NPCRegistry {
 
     static SpigotNPCRegistry DEFAULT_IMPL () {
-        return null;
+        return new SpigotNPCRegistryImpl();
     }
 }
