@@ -26,7 +26,7 @@ public interface NPCRegistry {
      *
      * @param npc The NPC to unregister
      */
-    NPC unregister(NPC npc);
+    void unregister(NPC npc);
 
     /**
      * Unregister all {@link NPC}s from this registry.
