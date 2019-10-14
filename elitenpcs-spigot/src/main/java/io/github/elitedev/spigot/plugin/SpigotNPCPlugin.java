@@ -16,7 +16,7 @@ public class SpigotNPCPlugin extends JavaPlugin implements NPCPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("EliteNPCs enabled.");
+        getLogger().info(getDescription().getFullName() + " enabled.");
 
         Bukkit.getPluginManager().registerEvents(new InteractEvent(), this);
     }

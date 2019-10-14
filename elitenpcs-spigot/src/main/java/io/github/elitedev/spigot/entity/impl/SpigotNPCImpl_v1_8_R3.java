@@ -14,14 +14,14 @@ import java.util.UUID;
 import static net.minecraft.server.v1_8_R3.PacketPlayOutPlayerInfo.EnumPlayerInfoAction.ADD_PLAYER;
 import static net.minecraft.server.v1_8_R3.PacketPlayOutPlayerInfo.EnumPlayerInfoAction.REMOVE_PLAYER;
 
-public class NPCv1_8_R3 extends BaseNPC {
+public class SpigotNPCImpl_v1_8_R3 extends BaseNPC {
 
     /**
      * Reference to avoid over casting.
      */
     private EntityPlayer entityPlayer;
 
-    public NPCv1_8_R3(UUID uniqueId, Location location, String name) {
+    public SpigotNPCImpl_v1_8_R3(UUID uniqueId, Location location, String name) {
         super(uniqueId, location, name);
     }
 

@@ -1,7 +1,7 @@
 package io.github.elitedev.spigot.event.test;
 
 import io.github.elitedev.spigot.entity.SpigotNPC;
-import io.github.elitedev.spigot.entity.impl.NPCv1_8_R3;
+import io.github.elitedev.spigot.entity.impl.SpigotNPCImpl_v1_8_R3;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -23,7 +23,7 @@ public class InteractEvent implements Listener {
         Player player = event.getPlayer();
         Location location = event.getClickedBlock().getLocation();
 
-        SpigotNPC npc = new NPCv1_8_R3(UUID.randomUUID(), location, "npc");
+        SpigotNPC npc = new SpigotNPCImpl_v1_8_R3(UUID.randomUUID(), location, "npc");
         npc.show(player);
     }
 
