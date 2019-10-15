@@ -1,0 +1,3 @@
+name: EliteNPCs
+main: io.github.elitedev.spigot.plugin.SpigotNPCPlugin
+version: ${version}
